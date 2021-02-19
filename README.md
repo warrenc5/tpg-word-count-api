@@ -24,7 +24,7 @@ For any additional recommendations and comments you want to provide, please add 
 
  
 ### Installation
- 1. Compile with mvn install
+ 1. Compile with mvn 
  2. Run Main.java
  3. Open browser on http://localhost:8080/swagger-ui.html
  

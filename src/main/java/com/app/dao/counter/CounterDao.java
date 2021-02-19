@@ -1,7 +1,6 @@
 package com.app.dao.counter;
 
-import com.app.entity.FileEntity;
-
+import com.app.entity.WordsEntity;
 import java.io.IOException;
 
 public interface CounterDao {
@@ -12,6 +11,6 @@ public interface CounterDao {
      * @return FileEntity This is wrapped object containing the file.
      * @throws IOException  Failure if the file is not found in the resource.
      */
-    FileEntity fetchFile() throws IOException;
+    WordsEntity fetchFile() throws IOException;
 
 }
